@@ -15,3 +15,8 @@ This is where Sonoro comes in. in Sonoro you can enter, put on your headphones a
 
 In sound you have more than 20 sounds with which you can play. from rain, thunder, wind to zombie apocalypse, medieval war or nuclear alarm... I know. I admit that in the search for sounds I found some very interesting and rare ones and I wanted to include them
 
+## Features
+1. Master volume control
+2. Save profiles separately
+3. Many relaxing sounds and others ... stressful
+4. Nice and simple interface
