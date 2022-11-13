@@ -11,9 +11,9 @@ If you are like me, you always like to have sound in the background when program
 
 This is where Sonoro comes in. in Sonoro you can enter, put on your headphones and just start 'configuring' your sound environment the way you like. as you like. you can make all the mixes you want and, when you find a special mix, you can save it as a profile and so the next time you come back to upo you can listen to that same mix if you wish.
 
->for example you can save profiles as 'study' or 'work' or 'sleep' or whatever you want
+>for example you can save profiles as 'study' or 'work' or 'sleep' or whatever you want.
 
-In Sonoro you have more than 20 sounds with which you can play. from rain, thunder, wind to zombie apocalypse, medieval war or nuclear alarm... I know. I admit that in the search for sounds I found some very interesting and rare ones and I wanted to include them
+In Sonoro you have more than 20 sounds with which you can play. from rain, thunder, wind to zombie apocalypse, medieval war or nuclear alarm... I know. I admit that in the search for sounds I found some very interesting and rare ones and I wanted to include them.
 
 ## Features
 1. Master volume control
