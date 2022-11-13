@@ -1,9 +1,14 @@
-:root{
-  --primal-color:#f6efe5;
-  --second-color:#3a5ba0;
+:root {
+  --primal-color: #f6efe5;
+  --second-color: #3a5ba0;
 }
 
-html{
-background-color:var(--primal-color);
-font-family:'Roboto',sans-serif;
+html {
+  background-color: var(--primal-color);
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }

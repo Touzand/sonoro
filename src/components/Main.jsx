@@ -1,6 +1,6 @@
-import React, {useState} from "react"
 import InputRange from "./InputRange"
 import styled from 'styled-components'
+import GlobalVolume from "./GlobalVolume"
 
 function Main(){
   const name = [
@@ -36,22 +36,25 @@ function Main(){
   ] 
 
   const TrackContainer = styled.div`
-  width:50%;
+  max-width:700px;
+  min-width:auto;
   margin:auto;
 display:grid;
 justify-content:center;
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
 
->div:nth-child(2n){
-margin-left:3rem;
-
+@media (max-width:620px){
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
   `
   const Logo = styled.div`
   display:flex;
   justify-content:center;
   align-items:center;
-  height:250px;
-  pointer-events:none;
+  margin-top:3rem;
 
   img{
   height:100px;
@@ -61,8 +64,11 @@ margin-left:3rem;
   return(
     <div>
       <Logo>
+        <a href='https://github.com/Touzand/sonoro' target='_blank'>
         <img src='../../public/favicon.svg'/>
+        </a>
       </Logo>
+      <GlobalVolume/>
       <TrackContainer>
       {
         name.map(( item,index )=><InputRange itemName={item} key={index}/>)

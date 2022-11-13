@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Main from "./components/Main"
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <div>
       <Main/>
+      <Footer/>
     </div>
   )
 }

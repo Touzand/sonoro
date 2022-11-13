@@ -73,10 +73,19 @@ const InputRangeContainer = styled.div`
     display: flex;
     justify-content: left;
     gap: 0.5rem;
+
+    span{
+    text-transform:capitalize;
+    }
   }
 
   .on-sound {
     width: 19px;
+  }
+
+@media (max-width:620px){
+  .input input[type="range"] {
+  width:70vw;
   }
 `;
 
