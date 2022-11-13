@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div>
+      <AllowSound/>
       <Main/>
       <Footer/>
     </div>

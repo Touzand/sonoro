@@ -12,3 +12,22 @@ html {
 body {
   margin: 0;
 }
+
+@keyframes enable{
+0%{left:100%;}
+100%{left:0%;}
+}
+
+@keyframes desable{
+0%{left:0%;}
+50%{left:100%;}
+100%{visibility: hidden;}
+}
+
+.enable{
+  animation: enable 1s ease both;
+}
+
+.desable{
+  animation: desable 1s ease both;
+}

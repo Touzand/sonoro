@@ -67,6 +67,26 @@ background-color:#24292d;
   }
   }
   }
+
+
+
+@media (max-width:620px){
+div:nth-child(1){
+text-align:left;
+}
+
+.enlaces{
+flex-direction:column;
+
+.enlace{
+margin:0 !important;
+}
+}
+
+
+
+}
+
 `;
 
 const Footer = () => {
@@ -74,7 +94,7 @@ const Footer = () => {
     <FooterContainer>
       <div>
         <h3>Would you like to see more?</h3>
-        <p>If you are interested in seeing more projects like this, you can visit my portfolio or my github</p>
+        <p>If you are interested in seeing more projects like this, you can visit my <strong>portfolio</strong> or my <strong>github</strong></p>
         <div className="enlaces">
           <a
             href="https://touzand.github.io/portafolio"
