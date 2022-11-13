@@ -2,15 +2,20 @@ import InputRange from "./InputRange"
 import styled from 'styled-components'
 import GlobalVolume from "./GlobalVolume"
 
-function Main(){
   const name = [
   'rain',
+  'thunder',
   'coffee-shop',
   'lofi-beats',
   'waves',
   'campfire',
+  'sbowl',
   'wind',
+  'river',
   'forest',
+  'birds',
+  'crickets',
+  'frogs',
   'train-station',
   'highway',
   'office',
@@ -60,6 +65,7 @@ flex-direction:column;
   height:100px;
   }
   `
+function Main(){
 
   return(
     <div>

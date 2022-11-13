@@ -68,7 +68,7 @@ const GlobalVolumeContainer = styled.div`
 const GlobalVolume = () => {
   const [volume,setVolume] = useState(1)
 
-Howler.volume(volume)
+  Howler.volume(volume)
 
   return (
     <GlobalVolumeContainer>

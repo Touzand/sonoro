@@ -95,6 +95,7 @@ function InputRange({ itemName }) {
   const baseUrl = `http://localhost:3000/sonoro/`;
 
   let song;
+  let HowlContext = new AudioContext()
 
   useEffect(() => {
     if (volume) {
@@ -103,7 +104,6 @@ function InputRange({ itemName }) {
         loop: true,
         volume: 0,
         onvolume: () => {
-          console.log(song.volume());
           if (song.volume() > 0) {
             setVolume(true);
           } else {
@@ -117,6 +117,7 @@ function InputRange({ itemName }) {
 
   const handdleVolumen = (e) => {
     setVolume(true);
+
     if (song) {
       song.volume(e.target.value);
     }
