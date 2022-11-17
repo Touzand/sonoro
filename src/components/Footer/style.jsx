@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import "../index.css";
+import "../../index.css";
 
-const FooterContainer = styled.footer`
+export const FooterContainer = styled.footer`
   margin-top: 3rem;
   background-color: var(--second-color);
   display:grid;
@@ -88,34 +88,3 @@ margin:0 !important;
 }
 
 `;
-
-const Footer = () => {
-  return (
-    <FooterContainer>
-      <div>
-        <h3>Would you like to see more?</h3>
-        <p>If you are interested in seeing more projects like this, you can visit my <strong>portfolio</strong> or my <strong>github</strong></p>
-        <div className="enlaces">
-          <a
-            href="https://touzand.github.io/portafolio"
-            target="_blank"
-            className="enlace"
-          >
-            <img src="../../public/circle.svg" alt="circle" />
-            <p>Alan G. Alonso</p>
-          </a>
-          <a
-            href="https://github.com/touzand"
-            target="_blank"
-            className="enlace"
-          >
-            <img src="../../public/github.svg" alt="github" />
-            <p>Github</p>
-          </a>
-        </div>
-      </div>
-    </FooterContainer>
-  );
-};
-
-export default Footer;
