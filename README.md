@@ -19,6 +19,5 @@ In Sonoro you have more than 20 sounds with which you can play. from rain, thund
 
 ## Features
 1. Master volume control
-2. Save profiles separately
-3. Many relaxing sounds and others ... stressful
-4. Nice and simple interface
+2. Many relaxing sounds and others ... stressful
+3. Nice and simple interface
