@@ -1,0 +1,16 @@
+{
+  "name": "sonoro",
+  "version": "1.0.0",
+  "description": "Uma SPA pra relaxar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan G. Alonso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-lambda": "^2.0.15",
+    "nodemon": "^2.0.20"
+  }
+}
